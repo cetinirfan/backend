@@ -17,11 +17,12 @@ const Staff = new Schema({
         saturday:[{startDate:{type:String},finishDate:{type:String}}],
         sunday:[{startDate:{type:String},finishDate:{type:String}}],
     }],
-    appointmentDate:
+    appointmentDate:[
         {date:{type:String},time:{type:String}
-        },
+        }],
     staffPhoto:{
         type:String,
+        default:'uploads/default/user.png',
     },
     operationId:[],
     staffOperations:[{

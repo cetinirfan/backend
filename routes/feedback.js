@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const FeedBack = require('../services/modals/FeedBack');
+const Feedback = require('../services/modals/Feedback');
 
 router.post('/addFeedback',(req,res,next)=>{
     const {telephone,title,description} =req.body;
-	const NewFeedBack = new FeedBack({
+	const NewFeedBack = new Feedback({
         telephone,
         title,
         description,

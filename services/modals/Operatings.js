@@ -60,6 +60,7 @@ const Operatings = new Schema({
     }],
     operatingPhoto:{
         type:String,
+        default:'uploads/default/operating.jpeg',
     },
     operatingWorkTime:{
         monday:{startDate:{type:String,default:"-"},finishDate:{type:String,default:"-"}},

@@ -13,7 +13,7 @@ const Campaign = new Schema({
     },
     campaignPhoto:{
         type:String,
-        default:'https://i.hizliresim.com/OTXJet.png',
+        default:'uploads/default/campaign.png',
     },
     campaignStartdate:{
         type:Date

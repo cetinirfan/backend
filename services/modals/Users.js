@@ -14,7 +14,7 @@ const Users = new Schema({
     },
     userPhoto:{
         type:String,
-        default:'https://i.hizliresim.com/eMC6le.png',
+        default:'uploads/default/user.png',
     },
     userBanType:{
         type:Number,
